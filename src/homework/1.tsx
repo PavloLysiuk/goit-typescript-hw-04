@@ -3,7 +3,7 @@ import React, { useEffect, useRef, ReactNode } from 'react';
 interface ObserverProps {
   children: ReactNode;
   onContentEndVisible: () => void;
-} 
+}
 
 // Опишіть Props
 export function Observer({ children, onContentEndVisible }: ObserverProps) {
